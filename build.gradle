@@ -106,7 +106,10 @@ dependencies {
     // For all intends and purposes: You can treat this dependency as if it is a normal library you would use.
     implementation "net.neoforged:neoforge:${neo_version}"
     implementation fg.deobf("com.simibubi.create:create-neoforge-1.21.1:6.0.7")
-    compileOnly fg.deobf("files/createbigcannons-5_11_6_mc_1_21_1.jar")
+    compileOnly fg.deobf(files("libs/createbigcannons-5.11.6+mc.1.21.1.jar"))
+    implementation "io.github.llamalad7:mixinextras-neoforge:0.4.1"
+    annotationProcessor "io.github.llamalad7:mixinextras-common:0.4.1"
+    annotationProcessor "org.spongepowered:mixin:0.8.7:processor"
 
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
