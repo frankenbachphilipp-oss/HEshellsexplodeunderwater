@@ -105,7 +105,7 @@ dependencies {
     // And its provides the option to then use net.minecraft as the group, and one of; client, server or joined as the module name, plus the game version as version.
     // For all intends and purposes: You can treat this dependency as if it is a normal library you would use.
     implementation "net.neoforged:neoforge:${neo_version}"
-    implementation "com.simibubi.create:create-neoforge-1.21.1:6.0.7"
+    implementation("com.simibubi.create:create-1.21.1:6.0.10-280:slim") { transitive = false }
     compileOnly files("libs/createbigcannons-5.11.6+mc.1.21.1.jar")
     implementation "io.github.llamalad7:mixinextras-neoforge:0.4.1"
     annotationProcessor "io.github.llamalad7:mixinextras-common:0.4.1"
