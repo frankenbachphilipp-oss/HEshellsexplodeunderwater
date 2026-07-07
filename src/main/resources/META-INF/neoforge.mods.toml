@@ -21,7 +21,7 @@ license="All Rights Reserved"
 [[mods]] #mandatory
 
 # The modid of the mod
-modId="examplemod" #mandatory
+modId="heshellsexplodeunderwater" #mandatory
 
 # The version number of the mod
 version="1.0.0" #mandatory
@@ -45,13 +45,13 @@ displayName="Example Mod" #mandatory
 #authors=""
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''
+description="""Now you can build torpedos. Pretty cool, right?"""
 Example mod description.
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
 [[mixins]]
-config="examplemod.mixins.json"
+config="heshellsexplodeunderwater.mixins.json"
 
 # The [[accessTransformers]] block allows you to declare where your AT file is.
 # If this block is omitted, a fallback attempt will be made to load an AT from META-INF/accesstransformer.cfg
