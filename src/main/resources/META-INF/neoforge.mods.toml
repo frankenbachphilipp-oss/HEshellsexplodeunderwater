@@ -46,7 +46,6 @@ displayName="Example Mod" #mandatory
 
 # The description text for the mod (multi line!) (#mandatory)
 description="""Now you can build torpedos. Pretty cool, right?"""
-Example mod description.
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
